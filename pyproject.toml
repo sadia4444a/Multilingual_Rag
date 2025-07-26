@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "multilingual-rag"
+version = "0.1.0"
+description = ""
+authors = ["Mst.Sadia Khatun <sadiasultana4444a@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.3.1"
+pandas = "^2.3.1"
+pymupdf = "^1.26.3"
+sentence-transformers = "^5.0.0"
+faiss-cpu = "^1.11.0.post1"
+fastapi = "^0.116.1"
+uvicorn = "^0.35.0"
+pypdf = "^5.8.0"
+dotenv = "^0.9.9"
+multilingual-pdf2text = "^1.1.0"
+unstructured = {version = "^0.18.9", extras = ["pdf"]}
+langchain-mistralai = "^0.2.11"
+langchain-core = "^0.3.70"
+python-dotenv = "^1.1.1"
+langchain = "^0.3.26"
+langchain-openai = "^0.3.28"
+langchain-community = "^0.3.27"
+langchain-text-splitters = "^0.3.8"
+openai = "^1.97.1"
+tiktoken = "^0.9.0"
+nltk = "^3.9.1"
+rank-bm25 = "^0.2.2"
+streamlit = "^1.47.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

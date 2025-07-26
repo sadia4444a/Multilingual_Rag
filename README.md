@@ -187,7 +187,7 @@ To improve relevance and understanding:
  1. We can summarize each chunk and store the summary in the vector database to better capture its core meaning.
  2. A hybrid retriever combining dense vector search with keyword-based methods like BM25 can improve both precision and recall.
  3. Including a summary or gist of the full story as metadata or prepending it to the prompt helps the language model understand the broader narrative.
- 4.We can apply Named Entity Recognition (NER) to extract person names and store them as metadata, so the model better understands who said what.
+ 4. We can apply Named Entity Recognition (NER) to extract person names and store them as metadata, so the model better understands who said what.
  5. Additionally, using a parent–child chunking system allows us to store smaller "child" chunks for fine-grained retrieval, while linking them to larger "parent" chunks for full context. This helps the model retrieve specific details without losing the surrounding narrative.
 
  

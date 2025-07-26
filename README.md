@@ -51,41 +51,40 @@ https://github.com/user-attachments/assets/3f690fe6-b795-4c4c-a96b-8d90f1b51868
 
 <img width="1680" height="1050" alt="Screenshot 2025-07-26 at 7 20 15 PM" src="https://github.com/user-attachments/assets/c627d8af-94e6-411f-987a-de53d398196a" />
 
-## INFO
+# INFO
 
-Setup guide: 
+## Setup guide: 
 🚀 Step-by-Step Setup
 1. Clone the Repository
 git clone git@github.com:sadia4444a/Multilingual_Rag.git
 cd Multilingual_Rag
 
 
-2. Install Poetry (if not installed)
+## 2. Install Poetry (if not installed)
 
-# For Linux/macOS
+ For Linux/macOS
 curl -sSL https://install.python-poetry.org | python3 -
 brew install poetry
 
-# Or for Windows (PowerShell)
+Or for Windows (PowerShell)
 (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
 
 
 
 
-3. Install project dependencies:
+## 3. Install project dependencies:
 poetry install
 
 
 
 
-4. Setup Environment Variables:
+## 4. Setup Environment Variables:
 
 OPENAI_API_KEY=your-api-key
 
 
-5. Run the Project
+## 5. Run the Project
 poetry run streamlit run app.py
-
 
 Or
 
@@ -95,16 +94,16 @@ streamlit run app.py
 
 
 
-Used tools, library, package:
+## Used tools, library, package:
 
-Python (programming language)
-LangChain (for language model pipelines, retrieval, embeddings, and text splitting)
-OpenAI API (via langchain_openai and OpenAIEmbeddings)
-FAISS (for efficient vector similarity search)
-PDF tools ( multilingual-pdf2text, unstructured) for PDF text extraction
+  1. Python (programming language)
+  2. LangChain (for language model pipelines, retrieval, embeddings, and text splitting)
+  3. OpenAI API (via langchain_openai and OpenAIEmbeddings)
+  4. FAISS (for efficient vector similarity search)
+  5. PDF tools ( multilingual-pdf2text, unstructured) for PDF text extraction
 
 
-Sample queries and outputs:
+## Sample queries and outputs:
 
 Q: ‘অপরিচিতা’ গল্পে কোন দ্বীপের উল্লেখ আছে?
 Ans: আন্ডামান দ্বীপ
@@ -132,14 +131,14 @@ Ans:দুটি-তিনটি ছোটো মেয়ে।
 
 Q: কল্যাণীর পিতার নাম কী?
 Ans:শস্তুনাথ সেন।
-
+## Answer following Questions
 Q:What role did Harish play in the story?
 Ans: Harish is a character who is trusted by the girl's father, Shastunathbabu, and is involved in the marriage arrangements.
 
 Q: Who said “খাঁটি সোনা বটে” and about whom?
 Ans:বিনুদাদার ভাষা সম্পর্কে বলা হয়েছে “খাঁটি সোনা বটে।”
 
- Q:Who was Anupam’s guardian and how did he influence Anupam’s life decisions?
+ Q: Who was Anupam’s guardian and how did he influence Anupam’s life decisions?
 Ans: Anupam's guardian was his maternal uncle (mama). He influenced Anupam's life decisions by having a specific preference for a bride who would come from a humble background and not be wealthy, emphasizing that the girl should come with her head bowed.
 
 

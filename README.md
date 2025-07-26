@@ -143,7 +143,7 @@ Ans: Anupam's guardian was his maternal uncle (mama). He influenced Anupam's lif
 
 
 
-Answer the following Questions: 
+ Questions And Answer: 
 
 Question: What method or library did you use to extract the text, and why? Did you face any formatting challenges with the PDF content?
 
@@ -184,11 +184,11 @@ Question: Do the results seem relevant? If not, what might improve them (e.g., b
 Answer:
 The results are sometimes relevant, but not always consistent. This often happens when chunks lack full context or when the model can’t clearly identify who is speaking.
 To improve relevance and understanding:
-We can summarize each chunk and store the summary in the vector database to better capture its core meaning.
-A hybrid retriever combining dense vector search with keyword-based methods like BM25 can improve both precision and recall.
-Including a summary or gist of the full story as metadata or prepending it to the prompt helps the language model understand the broader narrative.
-We can apply Named Entity Recognition (NER) to extract person names and store them as metadata, so the model better understands who said what.
-Additionally, using a parent–child chunking system allows us to store smaller "child" chunks for fine-grained retrieval, while linking them to larger "parent" chunks for full context. This helps the model retrieve specific details without losing the surrounding narrative.
+ 1. We can summarize each chunk and store the summary in the vector database to better capture its core meaning.
+ 2. A hybrid retriever combining dense vector search with keyword-based methods like BM25 can improve both precision and recall.
+ 3. Including a summary or gist of the full story as metadata or prepending it to the prompt helps the language model understand the broader narrative.
+ 4.We can apply Named Entity Recognition (NER) to extract person names and store them as metadata, so the model better understands who said what.
+ 5. Additionally, using a parent–child chunking system allows us to store smaller "child" chunks for fine-grained retrieval, while linking them to larger "parent" chunks for full context. This helps the model retrieve specific details without losing the surrounding narrative.
 
  
 
